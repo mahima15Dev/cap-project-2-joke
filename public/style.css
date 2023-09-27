@@ -1,0 +1,54 @@
+body,h1,button {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+
+.container {
+    text-align: center; /* Center the content inside the container */
+}
+
+
+body {
+    background-color: #ffd700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center; /* Center-align the heading */
+    color: #ff5722; /* Orange heading color */
+    font-size: 36px; /* Increase font size for emphasis */
+    margin-top: 20px; /* Add some space at the top */
+  }
+
+.joke-container {
+    text-align: center;
+    margin-top:30px ;
+}
+.joke{
+        font-size: 24px; /* Increase font size for readability */
+        color: #333; /* Dark text color */
+        padding: 10px; /* Add padding to separate from background */
+
+}
+button {
+    display: block; /* Make it a block element to center horizontally */
+    margin: 20px auto; /* Center-align the button */
+    background-color: #4caf50; /* Green button color */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 18px; /* Increase font size for emphasis */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  /* Add hover effect to the button */
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
